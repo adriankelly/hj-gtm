@@ -106,11 +106,11 @@
         });
     };
 
-    var googleTranslateFormStyling = function() {
-        $(window).on('load', function () {
-            $('.goog-te-combo').addClass('form-control');
-        });
-    };
+    // var googleTranslateFormStyling = function() {
+    //     $(window).on('load', function () {
+    //         $('.goog-te-combo').addClass('form-control');
+    //     });
+    // };
 
 
     var contentWayPoint = function() {
@@ -184,7 +184,7 @@
 		videos();
         contentWayPoint();
 		goToTop();
-		googleTranslateFormStyling();
+		// googleTranslateFormStyling();
 	});
 
 }());
